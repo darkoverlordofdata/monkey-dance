@@ -1,0 +1,42 @@
+{
+  "namespace": "monkeydance",
+  "src": "lib/src",
+  "output": {
+    "javascript": "extensions.js",
+    "typescript": "generated.ts",
+    "declaration": "generated.d.ts"
+  },
+  "components": {
+    "Movable": false,
+    "Position": [
+      "x:number",
+      "y:number"
+    ],
+    "Destroy": false,
+    "Input": [
+      "x:number",
+      "y:number"
+    ],
+    "Interactive": false,
+    "Resource": [
+      "name:string"
+    ],
+    "View": [
+      "sprite"
+    ],
+    "Score": [
+      "value:number"
+    ]
+  },
+  "systems": {
+    "DestroySystem": true,
+    "ProcessInputSystem": true,
+    "RenderPositionSystem": true,
+    "AddViewSystem": true,
+    "RemoveViewSystem": true,
+    "ScoreSystem": true
+  },
+  "entities": {
+    "Score": true
+  }
+}

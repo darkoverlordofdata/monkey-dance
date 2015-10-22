@@ -1,0 +1,13 @@
+{
+  "files": [
+    "web/src/bosco/bosco.js",
+    "web/src/chromestoragedb/chromestoragedb.js",
+    "web/src/entitas/entitas.min.js",
+    "web/src/ezgui/EZGUI.js",
+    "web/src/howler.js/howler.min.js",
+    "web/src/localstoragedb/localstoragedb.min.js",
+    "web/src/pixi.js/pixi.min.js",
+    "web/src/stats.js/stats.min.js",
+    "web/src/tween.ts/tween.min.js"
+  ]
+}
