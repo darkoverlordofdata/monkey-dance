@@ -12,3 +12,5 @@ web/src
 web/frameworks/js-bindings
 web/frameworks/runtime-src
 web/frameworks/cocos2d-x
+/web/res/images@2x.png
+/web/res/images.png
