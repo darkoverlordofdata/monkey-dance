@@ -1,12 +1,12 @@
-module matchone {
+module monkeydance {
 
   declare var foreContainer;
   declare var viewContainer;
 
-  import Pools = matchone.Pools;
+  import Pools = monkeydance.Pools;
   import Matcher = entitas.Matcher;
   import Text = PIXI.Text;
-  import ScoreComponent = matchone.ScoreComponent;
+  import ScoreComponent = monkeydance.ScoreComponent;
 
   export class ScoreLabelController {
 

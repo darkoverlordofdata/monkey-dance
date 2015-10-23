@@ -1,4 +1,4 @@
-module matchone {
+module monkeydance {
 
   declare var viewContainer;
 

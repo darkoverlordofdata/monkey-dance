@@ -2,9 +2,9 @@
   "namespace": "monkeydance",
   "src": "lib/src",
   "output": {
-    "javascript": "extensions.js",
-    "typescript": "generated.ts",
-    "declaration": "generated.d.ts"
+    "javascript": "generatedExtensions.js",
+    "typescript": "generatedComponents.ts",
+    "declaration": "entitas-monkeydance.d.ts"
   },
   "components": {
     "Movable": false,
@@ -34,7 +34,8 @@
     "RenderPositionSystem": true,
     "AddViewSystem": true,
     "RemoveViewSystem": true,
-    "ScoreSystem": true
+    "ScoreSystem": true,
+    "CreateMonkeySystem": true
   },
   "entities": {
     "Score": true

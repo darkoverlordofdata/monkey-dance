@@ -1,6 +1,6 @@
-module matchone {
+module monkeydance {
 
-  import Pools = matchone.Pools;
+  import Pools = monkeydance.Pools;
   import Systems = entitas.Systems;
 
   export class GameController {
@@ -8,6 +8,9 @@ module matchone {
     systems:Systems;
 
     start() {
+
+      var html = document.getElementsByTagName('html')[0];
+      html.style.backgroundImage = 'none';
 
       this.systems = this.createSystems(Pools.pool);
       this.systems.initialize();
@@ -21,22 +24,19 @@ module matchone {
     createSystems(pool) {
       return new Systems()
         // Input
-        .add(pool.createSystem(matchone.ProcessInputSystem))
+        .add(pool.createSystem(monkeydance.ProcessInputSystem))
 
         // Update
-        .add(pool.createSystem(matchone.CreateGameBoardCacheSystem))
-        .add(pool.createSystem(matchone.GameBoardSystem))
-        .add(pool.createSystem(matchone.FallSystem))
-        .add(pool.createSystem(matchone.FillSystem))
-        .add(pool.createSystem(matchone.ScoreSystem))
+        .add(pool.createSystem(monkeydance.CreateMonkeySystem))
+        .add(pool.createSystem(monkeydance.ScoreSystem))
 
         // Render
-        .add(pool.createSystem(matchone.RemoveViewSystem))
-        .add(pool.createSystem(matchone.AddViewSystem))
-        .add(pool.createSystem(matchone.RenderPositionSystem))
+        .add(pool.createSystem(monkeydance.RemoveViewSystem))
+        .add(pool.createSystem(monkeydance.AddViewSystem))
+        .add(pool.createSystem(monkeydance.RenderPositionSystem))
 
         // Destroy
-        .add(pool.createSystem(matchone.DestroySystem));
+        .add(pool.createSystem(monkeydance.DestroySystem));
 
     }
   }

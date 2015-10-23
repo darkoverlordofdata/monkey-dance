@@ -1,13 +1,26 @@
 {
   "files": [
-    "web/src/bosco/bosco.js",
-    "web/src/chromestoragedb/chromestoragedb.js",
-    "web/src/entitas/entitas.min.js",
-    "web/src/ezgui/EZGUI.js",
-    "web/src/howler.js/howler.min.js",
-    "web/src/localstoragedb/localstoragedb.min.js",
-    "web/src/pixi.js/pixi.min.js",
     "web/src/stats.js/stats.min.js",
-    "web/src/tween.ts/tween.min.js"
+    "web/src/pixi.js/pixi.min.js",
+    "web/src/tween.ts/tween.min.js",
+    "web/src/entitas/entitas.min.js",
+    "web/src/localstoragedb/localstoragedb.min.js",
+    "web/src/chromestoragedb/chromestoragedb.js",
+    "web/src/bosco/bosco.js",
+    "web/src/monkeydance/generatedComponents.js",
+    "web/src/monkeydance/generatedExtensions.js",
+    "web/src/monkeydance/systems/AddViewSystem.js",
+    "web/src/monkeydance/systems/CreateMonkeySystem.js",
+    "web/src/monkeydance/systems/DestroySystem.js",
+    "web/src/monkeydance/systems/ProcessInputSystem.js",
+    "web/src/monkeydance/systems/RemoveViewSystem.js",
+    "web/src/monkeydance/systems/RenderPositionSystem.js",
+    "web/src/monkeydance/systems/ScoreSystem.js",
+    "web/src/monkeydance/systems/AddViewSystem.js",
+    "web/src/monkeydance/systems/RemoveViewSystem.js",
+    "web/src/monkeydance/controllers/GameController.js",
+    "web/src/monkeydance/controllers/InputController.js",
+    "web/src/monkeydance/controllers/ScoreLabelController.js",
+    "web/main.js"
   ]
 }

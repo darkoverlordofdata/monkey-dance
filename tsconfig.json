@@ -5,10 +5,28 @@
         "noImplicitAny": false,
         "removeComments": false,
         "preserveConstEnums": false,
-        "sourceMap": true
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "outDir": "web/src/monkeydance"
+
     },
 
     "files": [
+        "lib/ext/pixi.js.d.ts",
+        "lib/ext/entitas-monkeydance.d.ts",
+        "lib/ext/Tween.d.ts",
+        "lib/ext/bosco.d.ts",
+        "lib/src/generatedComponents.ts",
+        "lib/src/systems/AddViewSystem.ts",
+        "lib/src/systems/CreateMonkeySystem.ts",
+        "lib/src/systems/DestroySystem.ts",
+        "lib/src/systems/ProcessInputSystem.ts",
+        "lib/src/systems/RemoveViewSystem.ts",
+        "lib/src/systems/RenderPositionSystem.ts",
+        "lib/src/systems/ScoreSystem.ts",
+        "lib/src/controllers/GameController.ts",
+        "lib/src/controllers/InputController.ts",
+        "lib/src/controllers/ScoreLabelController.ts"
    ]
-	
+
 }
